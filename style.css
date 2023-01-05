@@ -1,0 +1,172 @@
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: sans-serif;
+ }
+  
+ h2,h3{
+    color: #1E90FF;
+ }
+
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+   font-weight: bold;
+ }
+
+ @font-face {
+
+    font-family: "Dicoding Font";
+
+    src: url('FILE-FONT.TTF');
+
+ }
+
+ 
+
+ ul {
+
+    text-transform: uppercase;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+ }
+
+ li {
+
+    margin: 10px;
+
+    list-style-type: none;
+
+    padding: 10px;
+
+ }
+
+ a {
+
+    color: black;
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    text-decoration: none;
+
+ }
+
+ 
+
+ a:hover {
+
+    color: red;
+
+    background-color: lightgray;
+
+    font-weight: bold;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    transition: .2s ease-in-out;
+
+ }
+
+ 
+
+ .profile header {
+
+    text-align: center;
+
+ }
+.foto header{
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: scale-down;
+    object-position: center;
+ }
+ .profile img {
+    width: 200px;
+ }
+
+ .myPhoto {
+    width: 200px;
+    border: 10px solid transparent;
+ }
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ .jumbotoron{
+    padding: 60px;
+    background-color: #00BFFF;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+ }
+ 
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+ 
+  nav {
+    background-color: #00a2c6;
+    padding: 5px;
+ /* Sticky Navigation */
+    position: sticky;
+    top: 0;
+  }
+
+  header {
+    display: inline;
+ }
+
+  body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    padding: 20px;
+    overflow: auto;
+  }
+
+  #content {
+    float: left;
+    width: 75%;
+  }
+
+  aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
